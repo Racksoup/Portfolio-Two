@@ -5,7 +5,6 @@ import Twitter from '../../../../images/twitter.png';
 import Twitch from '../../../../images/twitch.png';
 import Reddit from '../../../../images/reddit.png';
 import Instagram from '../../../../images/Instagram.png';
-import Tiktok from '../../../../images/tiktok.png';
 import Discord from '../../../../images/discord.png';
 import Desk from '../../../../images/Desk.png';
 import DotArrow from '../../../../images/DotArrow.png';
@@ -36,9 +35,9 @@ const Cover = () => {
             <a href='' target='_blank'>
               <img src={Instagram} alt='Instagram' />
             </a>
-            <a href='https://www.tiktok.com/@windxfish' target='_blank'>
+            {/* <a href='https://www.tiktok.com/@windxfish' target='_blank'>
               <img src={Tiktok} alt='TikTok' />
-            </a>
+            </a> */}
             <a href='https://www.reddit.com/r/WindxFish/' target='_blank'>
               <img src={Reddit} alt='Reddit' />
             </a>
