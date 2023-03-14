@@ -4,30 +4,45 @@ import Youtube from '../../../../images/SocialMediaIcons/youtube.png';
 import Twitter from '../../../../images/SocialMediaIcons/twitter.png';
 import Twitch from '../../../../images/SocialMediaIcons/twitch.png';
 import Reddit from '../../../../images/SocialMediaIcons/reddit.png';
+import Instagram from '../../../../images/SocialMediaIcons/Instagram.png';
+import Tiktok from '../../../../images/SocialMediaIcons/Tiktok.png';
 import Discord from '../../../../images/SocialMediaIcons/discord.png';
 import Desk from '../../../../images/Desk.png';
 import DotArrow from '../../../../images/DotArrow.png';
 
 const Cover = () => {
+  const linkToRef = (ref) => {
+    const linkOffset = 0;
+    const refPosition = document.getElementById(ref).getBoundingClientRect().top;
+    const offsetPosition = refPosition + window.pageYOffset - linkOffset;
+    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+  };
+
   return (
     <div className='Cover'>
       <div className='Container'>
         <div className='Header'>
           <h2>CONNOR RACK</h2>
           <div className='Links'>
-            <a href='www.youtube.com' target='_blank'>
+            <a href='https://www.youtube.com/channel/UCUdf18IaDKXzIROmcYtp4SA' target='_blank'>
               <img src={Youtube} alt='Youtube' />
             </a>
-            <a href='www.twitch.com' target='_blank'>
+            <a href='https://www.twitch.tv/windxfish' target='_blank'>
               <img src={Twitch} alt='Twitch' />
             </a>
-            <a href='www.twitter.com' target='_blank'>
+            <a href='https://twitter.com/WindxFish' target='_blank'>
               <img src={Twitter} alt='Twitter' />
             </a>
-            <a href='www.reddit.com' target='_blank'>
+            <a href='' target='_blank'>
+              <img src={Instagram} alt='Instagram' />
+            </a>
+            <a href='https://www.tiktok.com/@windxfish' target='_blank'>
+              <img src={Tiktok} alt='TikTok' />
+            </a>
+            <a href='https://www.reddit.com/r/WindxFish/' target='_blank'>
               <img src={Reddit} alt='Reddit' />
             </a>
-            <a href='www.discord.com' target='_blank'>
+            <a href='https://discord.gg/Ugpf7E622H' target='_blank'>
               <img src={Discord} alt='Discord' />
             </a>
           </div>
@@ -41,14 +56,14 @@ const Cover = () => {
               <h1>Content Creator</h1>
             </div>
             <div className='Bottom'>
-              <a href='www.connorrack.ca' target='_blank'>
+              <a href='https://www.connorrack.ca' target='_blank'>
                 <button className='BusinessLink'>Need A Website?</button>
               </a>
               <div className='BlogLinks'>
-                <a href='www.rackhistory.ca' target='_blank'>
+                <a href='https://www.rackhistory.ca' target='_blank'>
                   <button className='Btn Btn-History'>History Blog</button>
                 </a>
-                <a href='www.rackdev.ca' target='_blank'>
+                <a href='https://www.rackdev.ca' target='_blank'>
                   <button className='Btn Btn-Dev'>Dev Blog</button>
                 </a>
               </div>
@@ -60,7 +75,7 @@ const Cover = () => {
         </div>
 
         <div className='LeadButton'>
-          <button>Bio & Projects</button>
+          <button onClick={() => linkToRef('About')}>Bio & Projects</button>
           <img src={DotArrow} alt='DotArrow' />
         </div>
       </div>

@@ -28,18 +28,20 @@
       }
 
       .Links {
-        width: 22rem;
+        width: 32rem;
         display: flex;
         justify-content: space-between;
 
         a {
-          width: 3.2rem;
-          height: 3.2rem;
+          width: 3.4rem;
+          height: 3.4rem;
+          padding: 0.2rem;
 
           img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            cursor: pointer;
           }
         }
       }
@@ -109,11 +111,11 @@
               font-weight: 400;
 
               &-Dev {
-                background-color: #7cf8ff;
+                background-color: #adfbff;
               }
 
               &-History {
-                background-color: #ffdc89;
+                background-color: #ffe7ae;
               }
             }
           }

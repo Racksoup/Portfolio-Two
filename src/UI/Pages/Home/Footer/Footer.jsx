@@ -11,8 +11,12 @@ const Footer = () => {
             <div className='Underline' />
           </div>
           <div className='Info'>
-            <p>Discord</p>
-            <p>Twitter</p>
+            <a href='https://discord.gg/Ugpf7E622H' target='_blank'>
+              <p>Discord</p>
+            </a>
+            <a href='https://twitter.com/WindxFish' target='_blank'>
+              <p>Twitter</p>
+            </a>
             <p>Windfish26@outlook.com</p>
           </div>
         </div>
