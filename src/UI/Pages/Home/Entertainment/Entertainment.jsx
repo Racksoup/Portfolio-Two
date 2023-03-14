@@ -5,8 +5,8 @@ import Vector2 from '../../../../images/Vector 2.png';
 import Vector3 from '../../../../images/Vector 3.png';
 import TaiwanLandscape from '../../../../images/TaiwanLandscape.jpg';
 import Computer from '../../../../images/Computer.jpg';
-import Reddit from '../../../../images/SocialMediaIcons/reddit.png';
-import Discord from '../../../../images/SocialMediaIcons/discord.png';
+import Reddit from '../../../../images/reddit.png';
+import Discord from '../../../../images/discord.png';
 
 const Entertainment = () => {
   return (

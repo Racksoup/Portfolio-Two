@@ -1,12 +1,12 @@
 import React from 'react';
 import './Cover.scss';
-import Youtube from '../../../../images/SocialMediaIcons/youtube.png';
-import Twitter from '../../../../images/SocialMediaIcons/twitter.png';
-import Twitch from '../../../../images/SocialMediaIcons/twitch.png';
-import Reddit from '../../../../images/SocialMediaIcons/reddit.png';
-import Instagram from '../../../../images/SocialMediaIcons/Instagram.png';
-import Tiktok from '../../../../images/SocialMediaIcons/Tiktok.png';
-import Discord from '../../../../images/SocialMediaIcons/discord.png';
+import Youtube from '../../../../images/youtube.png';
+import Twitter from '../../../../images/twitter.png';
+import Twitch from '../../../../images/twitch.png';
+import Reddit from '../../../../images/reddit.png';
+import Instagram from '../../../../images/Instagram.png';
+import Tiktok from '../../../../images/Tiktok.png';
+import Discord from '../../../../images/discord.png';
 import Desk from '../../../../images/Desk.png';
 import DotArrow from '../../../../images/DotArrow.png';
 
