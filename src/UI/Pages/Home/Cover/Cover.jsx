@@ -5,7 +5,7 @@ import Twitter from '../../../../images/twitter.png';
 import Twitch from '../../../../images/twitch.png';
 import Reddit from '../../../../images/reddit.png';
 import Instagram from '../../../../images/Instagram.png';
-import Tiktok from '../../../../images/Tiktok.png';
+import Tiktok from '../../../../images/Gigi.png';
 import Discord from '../../../../images/discord.png';
 import Desk from '../../../../images/Desk.png';
 import DotArrow from '../../../../images/DotArrow.png';
