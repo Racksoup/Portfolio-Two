@@ -4,6 +4,7 @@ import About from './About/About.jsx';
 import Cover from './Cover/Cover.jsx';
 import Entertainment from './Entertainment/Entertainment.jsx';
 import Projects from './Projects/Projects.jsx';
+import Footer from './Footer/Footer.jsx';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Entertainment />
       <Projects />
+      <Footer />
     </div>
   );
 };

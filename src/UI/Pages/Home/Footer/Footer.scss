@@ -1,0 +1,76 @@
+.Footer {
+  height: 18.5rem;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .Content {
+    width: 1440px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    .Contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      height: 10.5rem;
+
+      p {
+        color: white;
+      }
+
+      h6 {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+      }
+
+      .Underline {
+        margin-top: 0.2rem;
+        width: 7rem;
+        height: 0.1rem;
+        background-color: white;
+      }
+
+      .Info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 7rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+    }
+
+    .Links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        color: grey;
+      }
+
+      a {
+        color: rgb(84, 118, 158);
+        cursor: pointer;
+      }
+
+      .Linksx {
+        margin-top: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

@@ -41,9 +41,7 @@ const About = () => {
               understanding the causes and effects that influence the world. I make blogs and videos
               out of interesting things I find while doing research.
             </p>
-            <p>
-              I’m a big fan of coffee, gaming, debates, stories, gardening, dogs, and good weather.
-            </p>
+            <p>I’m a big fan of coffee, gaming, debates, tech, stories, dogs, and good weather.</p>
             <p>
               I’m a quiet person who likes to work independently. I’m happiest when I have time to
               start a new project.
